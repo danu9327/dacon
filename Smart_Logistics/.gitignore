@@ -1,0 +1,26 @@
+# --- Data ---
+# 모든 하위 폴더 내의 data 폴더 제외
+**/data/
+**/results/
+
+# 특정 데이터 확장자 제외
+*.csv
+*.zip
+*.tar.gz
+
+# --- Models ---
+# PyTorch 모델 가중치 파일 제외
+*.pt
+*.pth
+*.ckpt
+
+# --- Python & IDE ---
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- Large Files ---
+# 50MB 이상의 대용량 파일은 보통 Git 관리 대상에서 제외하는 것이 좋습니다.
+*.bin
+*.npy
